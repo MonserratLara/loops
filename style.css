@@ -1,0 +1,13 @@
+.recipes {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(Plain.jpg);
+    color: rgb(205, 162, 55);
+}
+
+.recipes > div {
+    margin: 2em;
+}
